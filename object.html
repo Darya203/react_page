@@ -1,0 +1,32 @@
+<script>
+
+    var a={
+        name: {id: 'it-kamasutra.com', ad: 'ffff'},
+        number:15,
+        bool:true,
+        state:['ivan','maria'],
+        classroom:{
+            teacher:{
+                name:'Dima',
+                age:18
+            }
+        }
+
+    } 
+console.log=(a);
+console.log=(a.name);
+let b={...a};
+
+// b.classroom={...a.clasroom}
+// b.classroom.teacher={...a.classroom.teacher}
+// b.state=[...a.state]
+
+
+console.log=(b===a);
+
+
+window.a=a;
+window.b=b;
+
+
+    </script>
